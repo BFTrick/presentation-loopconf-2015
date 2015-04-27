@@ -4,8 +4,6 @@
 
 ### @BFTrick
 
----
-
 ^ I know I don't have a ton of time to speak but I wanted to start with a story.
 
 ^ A little while ago I wrote a piece all about WooCommerce. This is how you install it, this is how you add a product, this is how you configure Stripe, that type of stuff.
