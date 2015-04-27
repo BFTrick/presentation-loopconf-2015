@@ -76,13 +76,7 @@
 
 ---
 
-^ TODO
-
-^ Let's take a look at what this could like if we made it a bit more visual.
-
----
-
-![90%](assets/images/woocommerce-email-settings-simple.png)
+# Placeholder for video that shows the new customizer
 
 ^ What plugin settings could look like
 
