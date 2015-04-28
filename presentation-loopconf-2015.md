@@ -237,7 +237,6 @@ $wp_customize->add_control(
 			'priority'   => 10,
 			'section'    => 'wc_email_header',
 			'settings'   => 'woocommerce_email_header_image',
-			'context'    => 'woocommerce-email-customizer',
 		)
 	)
 );
