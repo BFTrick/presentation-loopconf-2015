@@ -223,6 +223,15 @@ function control_filter( $active, $control ) {
 
 ---
 
+```php
+global $wp_customize;
+$wp_customize->remove_section( 'themes' );
+```
+
+^ In WordPress 4.2 there's a new themes section which doesn't get hidden by the filter above. You have to manually remove the theme's section.
+
+---
+
 # 6. Add New controls
 
 ---
