@@ -141,6 +141,10 @@ WooCommerce Settings API: http://docs.woothemes.com/document/settings-api/
 
 ---
 
+![fit](assets/images/woocommerce-email-settings-button.png)
+
+---
+
 # 2. Load a Specific Page
 
 ---
@@ -256,6 +260,10 @@ $wp_customize->remove_section( 'themes' );
 
 ---
 
+![fit](assets/images/customizer-empty.png)
+
+---
+
 # 6. Add New controls
 
 ---
@@ -289,6 +297,10 @@ $url = add_query_arg(
 ```
 
 ^ Just to make the UI a bit nicer you can auto focus the first section.
+
+---
+
+![fit](assets/images/customizer-full.png)
 
 ---
 
