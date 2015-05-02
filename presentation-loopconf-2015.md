@@ -4,9 +4,33 @@
 
 ### @BFTrick
 
-^ I know I don't have a ton of time to speak but I wanted to start with a story.
+^ Hey everyone my name is Patrick and I do a lot of the behind the scenes planning for WooCommerce. To do my job I have to perform one of the most horrifying tasks in all of web. It's not migrating databases and it's not maintaining backwards compatibility - although both of those are incredibly challenging. It's watching a user attempt to use your software.
 
-^ A little while ago I wrote a piece all about WooCommerce. This is how you install it, this is how you add a product, this is how you configure Stripe, that type of stuff.
+^ I learned two important things watching users.
+
+---
+
+![](assets/videos/woocommerce-user-testing.mp4)
+
+^ It's unbelievable how many ways users can break your software.
+
+^ This here is a video of a friend of mine who used to be a web developer trying to install a plugin. It takes him 9 minutes to install the plugin.
+
+^ Everything that you never imagined goes wrong here.
+
+^ The plugin won't install through the WordPress dashboard. A regular FTP program won't work either. He tries to upload the plugin through his host's FTP program. Unfortunately he can't remember his password and he doesn't use a password manager.
+
+^ At one point he says, "Ugh WooCommerce!", because it won't activate. And the reason it won't activate is because he didn't wait for the plugin to finish uploading. It was only 1/2 of the way uploaded.
+
+^ In this user's mind he already dislikes WooCommerce even though not a single like of code has run.
+
+^ The first thing I learned about users is that they may be in a terrible mood before they attempt to use your software. They may be having hosting problems, ftp problems, plugin conflicts, cash flow problems. As a software developer I usually say "oh if they to do X they'll just google it and figure it out". And that isn't the case. They're too busy and they have to run their business. Not figure out your plugin's settings screen.
+
+---
+
+![](assets/images/map.jpg)
+
+^ A little while ago I wrote a book all about WooCommerce. This is how you install it, this is how you add a product, this is how you configure Stripe, that type of stuff.
 
 ^ I spent a lot of time polishing this and was really proud when it launched. So a few weeks ago when I got an email titled "mistake" I felt a lot of anxiety.
 
@@ -18,7 +42,7 @@
 
 ^ This guy spent *15 minutes* to go from reading the document, to finding my website, going to my contact form, and writing detailed instructions. All the while he wouldn't spend 1 minute to reread the original document.
 
-^ As silly as this situation was I actually got something really useful from it.
+^ As silly as this situation was I actually got something really useful from it. And this is the second thing I learned about users and the focus of this topic today.
 
 ---
 
@@ -74,7 +98,7 @@
 
 ---
 
-# Placeholder for video that shows the new customizer
+![](assets/videos/woocommerce-email-customizer.mp4)
 
 ^ What plugin settings could look like
 
@@ -285,3 +309,20 @@ $wp_customize->add_setting( 'wc_email_background_color',
 ^ This is the standard way to save a setting. What you want to pay attention to is the *type* setting. *Type* can be 'option' or 'theme_mod' (defaults to 'theme_mod')
 
 ^ Obviously you want to do this unless you want your plugin settings to be theme specific
+
+^ By now I hope that I've conveyed a few things...
+
+---
+
+> No matter how clearly you write people will misinterpret your words
+
+---
+
+> Using the WordPress Customizer is intuitive
+
+---
+
+# Patrick Rauland
+## @BFTrick
+
+^ If you have any questions I'll be in the hallway for the next 30 minutes
