@@ -322,6 +322,18 @@ $wp_customize->add_setting( 'wc_email_background_color',
 
 ^ Obviously you want to do this unless you want your plugin settings to be theme specific
 
+^ This is step 7 out of 7. In terms of code this isn't very tricky. You have to spend a couple hours digging in and you'll get it.
+
+^ This doesn't mean there aren't any hurdles to jump
+
+---
+
+![fit](assets/images/wordpress-core-development-update.png)
+
+^ The first hurdle customizer is under rapid development. If you plan on building on top of it you should follow all of the changes going into it.
+
+^ The second hurdle is that you'll have to play close attention to priorities and when certain hooks are being fired. Normally you can hook everything into admin_init but there were a few things that needed to be fired before or after that. If something's not working it's probably at the wrong priority.
+
 ^ By now I hope that I've conveyed a few things...
 
 ---
@@ -330,11 +342,12 @@ $wp_customize->add_setting( 'wc_email_background_color',
 
 ---
 
-> Using the WordPress Customizer is intuitive
+> Using the Customizer allows you to *show* users what a setting does
 
 ---
 
 # Patrick Rauland
 ## @BFTrick
+### WooCommerce Product Manager
 
 ^ If you have any questions I'll be in the hallway for the next 30 minutes
