@@ -30,17 +30,19 @@
 
 ![](assets/images/map.jpg)
 
+# Reading Can Be Difficult
+
 ^ A little while ago I wrote a book all about WooCommerce. This is how you install it, this is how you add a product, this is how you configure Stripe, that type of stuff.
 
-^ I spent a lot of time polishing this and was really proud when it launched. So a few weeks ago when I got an email titled "mistake" I felt a lot of anxiety.
+^ I spent a lot of time polishing this and was really proud when it launched. So a few weeks ago when I got an email titled "Mistake In Your Book" I felt a lot of anxiety.
 
-^ I open up the email and he goes into detail - you know 3 or 4 bullet points - about how he tried to follow my instructions to install a theme. He downloaded the theme to his computer, and then went to the plugins screen, clicked add new, and then not surprisingly he got an error.
+^ I open up the email and he goes into detail - you know 3 or 4 bullet points - about how he tried to follow my instructions to install a theme. He downloaded the theme to his computer, and then instead of uploading via the themes page he tried to upload via the plugins page. And of course not surprisingly he got an error.
 
-^ "My god" I'm thinking at this point. I wrote a tutorial on how to install a theme and I tell them to use the plugin installer? Idiot.
+^ "My god" I'm thinking at this point. I wrote a tutorial on how to install a theme and I tell them to use the plugin installer?
 
-^ Fortunately that's not what happened. I opened up the exact document they referenced and the title of the document is "how to install a plugin". It has *nothing* to do with themes.
+^ I open up the exact page that had the instructions and the title of the chapter is "how to install a plugin". Basically he was reading the wrong instructions.
 
-^ This guy spent *15 minutes* to go from reading the document, to finding my website, going to my contact form, and writing detailed instructions. All the while he wouldn't spend 1 minute to reread the original document.
+^ This guy spent *15 minutes* reading the document,  finding my website, goinging to my contact form, and writing a detailed email about everything I did wrong. All the while he wouldn't spend 1 minute to reread the original document.
 
 ^ As silly as this situation was I actually got something really useful from it. And this is the second thing I learned about users and the focus of this topic today.
 
@@ -111,8 +113,6 @@
 # 1. Create a Button That Loads the Customizer
 
 ^ This customize button isn't really button. It's actually a link that points to the WordPress customizer with a few flags that let you modify exactly what the user sees.
-
-^ One of the cool things you can do is load a specific page. So if you want to load a contact form you can do that. Or you could load the posts page. Or some other special page in your blog.
 
 ---
 
@@ -344,10 +344,21 @@ $wp_customize->add_setting( 'wc_email_background_color',
 
 > Using the Customizer allows you to *show* users what a setting does
 
+^ There are no questions about the email base color
+
+^ There are no questions about what does this look like in an email browser?
+
+^ There are no questions about how a particular image will look in the header.
+
+^ Everything is right there infront of the user
+
+^ And if a user had to spend 9 minutes installing a plugin because WordPress can be complex then when they finally get to your settings page to install the plugin it's as easy as point and click.
+
 ---
 
 # Patrick Rauland
 ## @BFTrick
 ### WooCommerce Product Manager
+### WooThemes
 
 ^ If you have any questions I'll be in the hallway for the next 30 minutes
